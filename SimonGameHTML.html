@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SimonGameCSS.css">
+    <title>Monke See Monke Do</title>
+</head>
+<body>
+    <div id="headerContainer">
+        <header>
+            <!-- <h1 id="title">Monke See.<span> Monke Do.</span></h1> -->
+            <h1 id="title">Monke See Monke Do</h1>
+            <!-- <img id="monke" src="MonkePic.jpg" alt="Monke Picture"> -->
+            <div id="monke"></div>
+            <h1>Click or touch  monke to start the game</h1>
+        </header>
+    </div>
+    <div id="buttonsMainContainer">
+        <div id="buttonsContainer">
+            <div class="row">
+                <button class='button'id="red" onclick="buttonClicked(event.target)"></button>
+                <button class='button'id="blue" onclick="buttonClicked(event.target)""></button>
+            </div>
+            <div class="row">
+                <button class='button'id="green" onclick="buttonClicked(event.target)""></button>
+                <button class='button'id="yellow" onclick="buttonClicked(event.target)""></button>
+            </div>
+        </div>
+        <h3>Press the buttons in the right order</h3>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="SimonGameJS.js"></script>
+</body>
+</html>
